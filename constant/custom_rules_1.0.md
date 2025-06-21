@@ -5,10 +5,10 @@
 
 | Severity Level | Action |
 |----------------|--------|
-| **High** | File a **bug ticket** (severity: **High**).<br>Send an **email notification** to the responsible team’s **engineering manager** and **security contact**.<br>Mark the issue as **"Security Blocker"** if it's exploitable in production. |
-| **Medium** | File a **bug ticket** with **priority: Medium**. Assign to the appropriate team. Notify the security team via internal tracking (no email escalation). |
-| **Low** | File a **bug ticket** with **priority: Low**. Add the issue to the **backlog** of the assigned team. No email required. |
-| **Informational** | Document the issue in internal wiki or ticketing system as **“informational only”**. No immediate remediation needed unless linked to abuse scenarios. |
+| **4-5** | File a **bug ticket** (severity: **High**).<br>Send an **email notification** to the responsible team’s **engineering manager** and **security contact**.<br>Mark the issue as **"Security Blocker"** if it's exploitable in production. |
+| **3** | File a **bug ticket** with **priority: Medium**. No need to send email. 
+| **2** | File a **bug ticket** with **priority: Low**. No need to send email. 
+| **1** | Ignore. No action needed. 
 
 ---
 

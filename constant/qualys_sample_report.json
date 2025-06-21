@@ -8,7 +8,7 @@
   },
   "assets": [
     {
-      "ip": "10.0.1.15",
+      "ip": "10.0.1.1",
       "hostname": "web-01.example.internal",
       "operating_system": "Ubuntu 22.04",
       "vulnerabilities": [
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "ip": "10.0.1.22",
+      "ip": "10.0.1.2",
       "hostname": "db-01.example.internal",
       "operating_system": "PostgreSQL 13.7 on Debian 11",
       "vulnerabilities": [
@@ -48,15 +48,15 @@
       ]
     },
     {
-      "ip": "10.0.2.5",
+      "ip": "10.0.2.3",
       "hostname": "win-2022-srv01.example.internal",
       "operating_system": "Windows Server 2022",
       "vulnerabilities": [
         {
           "qid": 91541,
           "title": "Microsoft Windows SMB RCE",
-          "severity": 5,
-          "cvss_base": 8.8,
+          "severity": 1,
+          "cvss_base": 3.1,
           "cves": [
             "CVE-2024-3568"
           ],
@@ -64,46 +64,6 @@
           "last_detected": "2025-06-20",
           "status": "Reopened",
           "solution": "Apply July 2025 security rollup KB5039203"
-        }
-      ]
-    },
-    {
-      "ip": "10.0.3.7",
-      "hostname": "api-gw.example.internal",
-      "operating_system": "Alpine 3.19 (container)",
-      "vulnerabilities": [
-        {
-          "qid": 731612,
-          "title": "BusyBox ash 'popd' use\u2011after\u2011free",
-          "severity": 3,
-          "cvss_base": 6.5,
-          "cves": [
-            "CVE-2025-10123"
-          ],
-          "first_detected": "2025-06-11",
-          "last_detected": "2025-06-18",
-          "status": "New",
-          "solution": "Upgrade BusyBox to 1.36.1\u2011r1 or later"
-        }
-      ]
-    },
-    {
-      "ip": "10.0.3.12",
-      "hostname": "fw-sw01.example.internal",
-      "operating_system": "Cisco ASA 9.16",
-      "vulnerabilities": [
-        {
-          "qid": 150345,
-          "title": "Cisco ASA SSL\u2011VPN memory\u2011exhaustion DoS",
-          "severity": 5,
-          "cvss_base": 9.1,
-          "cves": [
-            "CVE-2024-21762"
-          ],
-          "first_detected": "2025-06-09",
-          "last_detected": "2025-06-19",
-          "status": "New",
-          "solution": "Upgrade ASA to 9.18(4) or apply interim fix"
         }
       ]
     }
